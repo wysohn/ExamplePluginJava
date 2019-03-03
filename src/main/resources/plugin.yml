@@ -1,0 +1,17 @@
+depend:
+- RapidFramework
+author: wysohn
+permissions:
+  example.admin:
+    description: some description2
+name: ExamplePlugin
+main: io.github.wysohn.exampleplugin.main.ExamplePlugin
+softdepend:
+- Vault
+version: 0.0.1
+commands:
+  somecommand:
+    aliases:
+    - sc
+    - scommand
+    description: some description
