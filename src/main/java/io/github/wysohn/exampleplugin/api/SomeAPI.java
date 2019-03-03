@@ -5,13 +5,13 @@ import io.github.wysohn.rapidframework.pluginbase.PluginBase;
 
 public class SomeAPI extends APISupport {
 
-	public SomeAPI(PluginBase base) {
-		super(base);
-	}
+    public SomeAPI(PluginBase base) {
+	super(base);
+    }
 
-	@Override
-	public boolean init() throws Exception {
-		return true;
-	}
+    @Override
+    public boolean init() throws Exception {
+	return true;
+    }
 
 }
